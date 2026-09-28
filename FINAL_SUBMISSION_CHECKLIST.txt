@@ -1,0 +1,30 @@
+CS 224L LAB 02 — FINAL SUBMISSION CHECKLIST
+
+Project:
+- [x] HTML5 structure
+- [x] Exercise 1: lab02.html
+- [x] Exercise 2: headings, paragraphs, strong/em/mark/small, hr, br
+- [x] Exercise 3: absolute, relative, email, telephone and anchor links
+- [x] Exercise 4: image, alt, width and height
+- [x] Task 1: profile.html
+- [x] Task 2: schedule.html + colspan
+- [x] Task 3: navigation.html
+- [x] Task 4: registration.html
+- [x] Task 6: landing page
+- [x] Task 7: cross-page navigation
+- [x] Task 8: README + 404
+- [x] Task 9: Formspree-ready contact form
+- [x] Task 10: responsive/performance basics
+- [x] Task 11: repository structure
+- [x] Task 12: deployment-ready files
+
+YOU MUST DO ON YOUR OWN ACCOUNT:
+- [ ] Push repository to GitHub
+- [ ] Enable GitHub Pages from main branch
+- [ ] Wait for successful build
+- [ ] Test every deployed page
+- [ ] Take the real GitHub Pages screenshots
+- [ ] Configure Formspree endpoint if claiming Task 9 extra marks
+- [ ] Take the real Formspree test screenshot if configured
+
+DO NOT claim GitHub deployment or Formspree submission without actually performing those steps.

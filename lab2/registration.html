@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CS 224L Web Technologies Lab 02 project by Muhammad Farman.">
+  <meta name="author" content="Muhammad Farman">
+  <title>Lab 02 - Registration</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="registration">
+
+    <header class="site-header">
+      <a class="skip-link" href="#main">Skip to content</a>
+      <div class="nav-wrap">
+        <a class="brand" href="index.html">Web Technologies Lab 02<small>UET Peshawar • CS 224L</small></a>
+        <nav aria-label="Primary navigation">
+          <ul>
+            <li><a data-nav="home" href="index.html">Home</a></li>
+            <li><a data-nav="profile" href="profile.html">About</a></li>
+            <li><a data-nav="schedule" href="schedule.html">Courses</a></li>
+            <li><a data-nav="registration" href="registration.html">Registration</a></li>
+            <li><a data-nav="contact" href="navigation.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+<main id="main" class="container">
+
+<section class="hero">
+  <span class="badge">Task 4 • Registration Form</span>
+  <h1>Student Registration</h1>
+  <p>A structured HTML form using text, email, password, dropdown, radio buttons, checkbox and submit controls.</p>
+</section>
+
+<section class="card">
+<form action="#" method="post" id="registrationForm">
+  <label for="name">Full Name</label>
+  <input id="name" name="name" type="text" placeholder="Muhammad Farman" required>
+
+  <label for="regno">Registration Number</label>
+  <input id="regno" name="registration_number" type="text" placeholder="2024-CS-000" required>
+
+  <label for="email">Email Address</label>
+  <input id="email" name="email" type="email" placeholder="student@example.com" required>
+
+  <label for="password">Password</label>
+  <input id="password" name="password" type="password" minlength="8" placeholder="Minimum 8 characters" required>
+
+  <label for="course">Select Course</label>
+  <select id="course" name="course" required>
+    <option value="">-- Select a course --</option>
+    <option>Web Technologies</option>
+    <option>Data Structures and Algorithms</option>
+    <option>Operating Systems</option>
+    <option>Data Mining</option>
+    <option>Machine Learning</option>
+  </select>
+
+  <fieldset>
+    <legend>Semester</legend>
+    <div class="inline">
+      <label><input type="radio" name="semester" value="3rd" required> 3rd Semester</label>
+      <label><input type="radio" name="semester" value="4th"> 4th Semester</label>
+      <label><input type="radio" name="semester" value="5th"> 5th Semester</label>
+    </div>
+  </fieldset>
+
+  <label>
+    <input type="checkbox" name="terms" required>
+    I agree to the terms and conditions.
+  </label>
+
+  <button type="submit">Submit Registration</button>
+</form>
+<p><a href="index.html">← Back to Home</a></p>
+</section>
+
+</main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <strong>CS 224L Web Technologies — Lab 02</strong>
+        <p class="small">University of Engineering & Technology, Peshawar</p>
+        <p class="small">© <span data-year></span> Muhammad Farman. Educational lab project.</p>
+      </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CS 224L Web Technologies Lab 02 project by Muhammad Farman.">
+  <meta name="author" content="Muhammad Farman">
+  <title>Lab 02 - Navigation</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="contact">
+
+    <header class="site-header">
+      <a class="skip-link" href="#main">Skip to content</a>
+      <div class="nav-wrap">
+        <a class="brand" href="index.html">Web Technologies Lab 02<small>UET Peshawar • CS 224L</small></a>
+        <nav aria-label="Primary navigation">
+          <ul>
+            <li><a data-nav="home" href="index.html">Home</a></li>
+            <li><a data-nav="profile" href="profile.html">About</a></li>
+            <li><a data-nav="schedule" href="schedule.html">Courses</a></li>
+            <li><a data-nav="registration" href="registration.html">Registration</a></li>
+            <li><a data-nav="contact" href="navigation.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+<main id="main" class="container">
+
+<section class="hero">
+  <span class="badge">Task 3 • Navigation Menu</span>
+  <h1>Navigation & Links</h1>
+  <p>This page demonstrates semantic navigation, internal anchors, external links, email links and telephone links.</p>
+</section>
+
+<nav class="card" aria-label="Exercise navigation">
+  <h2>Quick Navigation</h2>
+  <ul>
+    <li><a href="#home">Home Section</a></li>
+    <li><a href="#courses">Courses Section</a></li>
+    <li><a href="#contact">Contact Section</a></li>
+    <li><a href="profile.html">Relative Link: Profile</a></li>
+    <li><a href="https://www.uetpeshawar.edu.pk/" target="_blank" rel="noopener">External Link: UET Peshawar</a></li>
+  </ul>
+</nav>
+
+<section id="home" class="card">
+  <h2>Home</h2>
+  <p>This is an internal anchor target on the same page. Internal links move directly to a section without opening another document.</p>
+</section>
+
+<section id="courses" class="card">
+  <h2>Courses</h2>
+  <p>Examples include Web Technologies, Data Structures, Operating Systems, Data Mining and Machine Learning.</p>
+</section>
+
+<section id="contact" class="card">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto: fk3968772@gmail.com">muhammad.farman@example.com</a></p>
+  <p>Telephone: <a href="tel: 923067012450">+92 300 1234567</a></p>
+  <p><a href="index.html">← Back to Home</a></p>
+</section>
+
+<section class="card" style="margin-top:20px" id="contact-form">
+  <h2>Contact Form — Extra Marks</h2>
+  <p class="small">Replace the Formspree action with your own Formspree endpoint before testing real submissions.</p>
+  <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <label for="contactName">Name</label>
+    <input id="contactName" name="name" type="text" required>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Send Message</button>
+    <div id="formMessage" aria-live="polite"></div>
+  </form>
+</section>
+
+</main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <strong>CS 224L Web Technologies — Lab 02</strong>
+        <p class="small">University of Engineering & Technology, Peshawar</p>
+        <p class="small">© <span data-year></span> Muhammad Farman. Educational lab project.</p>
+      </div>
+    </footer>
+    
+</body>
+</html>
